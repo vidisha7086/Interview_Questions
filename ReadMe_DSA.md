@@ -2,7 +2,7 @@
 
 ## Difference Between Concatenate and Append (Advanced Data Structures)
 
-When dealing with tuples, strings, queues, and linked lists, the difference between concatenation and appending becomes crucial in terms of <b>time complexity, memory usage, and <b> underlying data structure behavior.
+When dealing with tuples, strings, queues, and linked lists, the difference between concatenation and appending becomes crucial in terms of time complexity, memory usage, and underlying data structure behavior.
 
 | Data Structure  | Concatenation | Appending |
 |----------------|--------------|-----------|

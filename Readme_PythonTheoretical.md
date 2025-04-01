@@ -79,11 +79,11 @@ People get confused and think that PBV == copying, because in C, assignment of a
     </ul>
 <ul>
 Key Differences:
-* Print Statement vs Function: In Python 2.x, print is a statement, but in Python 3.x, it's a function that requires parentheses.
-* Integer Division: Python 2.x performs integer division by default when dividing two integers, while Python 3.x performs float division.
-* Unicode Support: Python 3.x has better support for Unicode by default, unlike Python 2.x, where you need to explicitly define strings as Unicode.
-* Iterators: Functions like range() and zip() return iterators in Python 3.x, whereas they return lists in Python 2.x.
-* Input Function: In Python 2.x, input() evaluates the input as code, while raw_input() returns input as a string. Python 3.x only has input(), which always returns a string.
+<ul>  Print Statement vs Function: In Python 2.x, print is a statement, but in Python 3.x, it's a function that requires parentheses.</ul>
+<ul>  Integer Division: Python 2.x performs integer division by default when dividing two integers, while Python 3.x performs float division.</ul>
+<ul>  Unicode Support: Python 3.x has better support for Unicode by default, unlike Python 2.x, where you need to explicitly define strings as Unicode.</ul>
+<ul>  Iterators: Functions like range() and zip() return iterators in Python 3.x, whereas they return lists in Python 2.x.</ul>
+<ul>  Input Function: In Python 2.x, input() evaluates the input as code, while raw_input() returns input as a string. Python 3.x only has input(), which always returns a string.</ul>
   
 <h4> More Questions </h4>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>

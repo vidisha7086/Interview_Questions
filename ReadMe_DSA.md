@@ -83,7 +83,7 @@ When dealing with tuples, strings, queues, and linked lists, the difference betw
         </tr>
     </table>
     
-    <h2>Stacks vs. Queues Operations</h2>
+<h2>Stacks vs. Queues Operations</h2>
     <table>
         <tr>
             <th>Operation</th>
@@ -107,7 +107,7 @@ When dealing with tuples, strings, queues, and linked lists, the difference betw
         </tr>
     </table>
     
-    <h2>🛠 Example: Stack (push & pop)</h2>
+<h2>🛠 Example: Stack (push & pop)</h2>
     <pre><code>
 stack = [1, 2, 3]
 stack.append(4)  # Push
@@ -123,7 +123,7 @@ queue.put(2)
 print(queue.get())  # Output: 1
     </code></pre>
     
-    <h2>Final Thoughts</h2>
+<h2>Final Thoughts</h2>
     <ul>
         <li>Concatenation creates a new structure and is often costly.</li>
         <li>Appending modifies the existing structure, making it more efficient in mutable data types.</li>

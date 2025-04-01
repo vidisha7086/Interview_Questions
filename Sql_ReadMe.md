@@ -1,21 +1,5 @@
-# 1. URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Python_Coding_Interview_Questions_For_Experienced
-<h1>Python Coding Interview Questions For Freshers</h1>
-
-<ul>
-    <li>Write a Python code to check if a number is odd or even.</li>
-    <li>Write a Python code to find the maximum of two numbers.</li>
-    <li>Write a Python code to check prime numbers.</li>
-    <li>Write a Python factorial program without using if-else, for, and ternary operators.</li>
-    <li>Write a Python code to calculate the square root of a given number.</li>
-    <li>Write a Python code to calculate the area of a triangle.</li>
-    <li>Write a Python code to check the Armstrong number.</li>
-    <li>Write a Python code to check prime numbers.</li>
-    <li>Write a Python code to display a multiplication table using a for loop.</li>
-    <li>Write a Python code to swap two variables.</li>
-</ul>
-
 # Reference Instagram ID
-# 2. URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
+# 1. URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
 <h1>Top 30 MySQL Interview Questions</h1>
 
 <p>These MySQL interview questions can help you prepare for technical interviews.</p>

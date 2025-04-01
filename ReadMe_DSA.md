@@ -59,20 +59,20 @@ When dealing with tuples, strings, queues, and linked lists, the difference betw
         </tr>
     </table>
     
-    <h2>📌 When to Use What?</h2>
-    <table>
-        <tr>
-            <th>Use Case</th>
-            <th>Preferred Operation</th>
-        </tr>
-        <tr>
+<h2>📌 When to Use What?</h2>
+<table>
+    <tr>
+        <th>Use Case</th>
+        <th>Preferred Operation</th>
+    </tr>
+    <tr>
             <td>Modifying data in-place</td>
             <td>Append (append, enqueue, insert)</td>
-        </tr>
-        <tr>
-            <td>Working with immutable structures (tuples, strings)</td>
-            <td>Concatenation (+, join, extend)</td>
-        </tr>
+    </tr>
+    <tr>
+        <td>Working with immutable structures (tuples, strings)</td>
+        <td>Concatenation (+, join, extend)</td>
+    </tr>
         <tr>
             <td>Managing dynamic queues</td>
             <td>Append (enqueue) is preferred over concatenation</td>

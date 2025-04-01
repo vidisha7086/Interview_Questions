@@ -23,18 +23,18 @@ When dealing with tuples, strings, queues, and linked lists, the difference betw
 | **Linked Lists** | Involves traversing and modifying pointers, typically O(n) for singly linked lists but O(1) for doubly linked lists. | Usually O(1) if appending at the tail, especially in doubly linked lists. |
 
 > **Note:** The efficiency of concatenation vs. appending depends on the underlying data structure and implementation.
->
-    <h1>Concatenation vs. Append in Data Structures</h1>
+
+<h1>Concatenation vs. Append in Data Structures</h1>
     
-    <h2>🔹 Key Takeaways:</h2>
-    <ul>
-        <li>Concatenation (+) creates a new structure, which is costly in terms of time and memory.</li>
-        <li>Append (append, enqueue, insert) modifies an existing structure efficiently.</li>
-        <li>Queues and Linked Lists benefit more from appending than concatenation.</li>
-        <li>Tuples and strings require concatenation due to immutability.</li>
-    </ul>
+<h2>🔹 Key Takeaways:</h2>
+<ul>
+    <li>Concatenation (+) creates a new structure, which is costly in terms of time and memory.</li>
+    <li>Append (append, enqueue, insert) modifies an existing structure efficiently.</li>
+    <li>Queues and Linked Lists benefit more from appending than concatenation.</li>
+    <li>Tuples and strings require concatenation due to immutability.</li>
+</ul>
     
-    <h2>Performance Comparison (Time Complexity)</h2>
+<h2>Performance Comparison (Time Complexity)</h2>
     <table>
         <tr>
             <th>Operation</th>

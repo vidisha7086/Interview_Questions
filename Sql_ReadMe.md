@@ -1,4 +1,4 @@
-URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Python_Coding_Interview_Questions_For_Experienced
+# URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Python_Coding_Interview_Questions_For_Experienced
 <h1>Python Coding Interview Questions For Freshers</h1>
 
 <ul>
@@ -14,7 +14,8 @@ URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Pytho
     <li>Write a Python code to swap two variables.</li>
 </ul>
 
-
+# Reference Instagram ID
+# URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
 <h1>Top 30 MySQL Interview Questions</h1>
 
 <p>These MySQL interview questions can help you prepare for technical interviews.</p>
@@ -47,8 +48,6 @@ URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Pytho
     <li>What is auto-increment in MySQL?</li>
 </ul>
 
-# Reference Instagram ID
-# URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
 <h2>Advanced MySQL Questions</h2>
 <ul>
     <li>What are triggers in MySQL? How do you create them?</li>

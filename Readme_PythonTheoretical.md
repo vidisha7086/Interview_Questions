@@ -40,17 +40,11 @@ Spaces. Stick to PEP8 when possible.
 
 <ul>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>
-
     <li><strong>Multiple inheritance:</strong> Python supports multiple inheritance, allowing a class to inherit attributes and methods from more than one parent class. However, it can lead to complexity, especially with the "diamond problem," which Python resolves using the C3 linearization (method resolution order, MRO).</li>
-
     <li><strong>Is Python compiled, interpreted, and/or emulated?</strong> Python is primarily an interpreted language, meaning its code is executed line by line. However, it is first compiled to bytecode (.pyc files) before being interpreted by the Python Virtual Machine (PVM).</li>
-
     <li><strong>What differentiates Python from Ruby?</strong> While both are high-level, dynamically typed languages, Python emphasizes readability and explicitness (using indentation for structure), whereas Ruby is more flexible and designed for developer happiness, often allowing multiple ways to achieve the same task.</li>
-
     <li><strong>Debugging Python: What is <code>pdb</code> and how do you use it?</strong> Python's built-in debugger (<code>pdb</code>) allows step-by-step execution, inspecting variables, and setting breakpoints. You can start debugging by adding <code>import pdb; pdb.set_trace()</code> in your script or using the command-line tool <code>python -m pdb script.py</code>.</li>
-
     <li><strong>Modifying global variables in a function & why to avoid it:</strong> You can modify a global variable inside a function using the <code>global</code> keyword. However, this is generally discouraged as it makes code harder to understand and debug by introducing side effects.</li>
-
     <li><strong>Use of the <code>re</code> module:</strong> The <code>re</code> module in Python provides support for regular expressions. Example:
         <pre>
 import re

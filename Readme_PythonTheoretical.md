@@ -78,12 +78,14 @@ People get confused and think that PBV == copying, because in C, assignment of a
         </li>
     </ul>
 <ul>
-Key Differences:
-<ul>  Print Statement vs Function: In Python 2.x, print is a statement, but in Python 3.x, it's a function that requires parentheses.</ul>
-<ul>  Integer Division: Python 2.x performs integer division by default when dividing two integers, while Python 3.x performs float division.</ul>
-<ul>  Unicode Support: Python 3.x has better support for Unicode by default, unlike Python 2.x, where you need to explicitly define strings as Unicode.</ul>
-<ul>  Iterators: Functions like range() and zip() return iterators in Python 3.x, whereas they return lists in Python 2.x.</ul>
-<ul>  Input Function: In Python 2.x, input() evaluates the input as code, while raw_input() returns input as a string. Python 3.x only has input(), which always returns a string.</ul>
+<h2>Key Differences:</h2>
+<ul>
+    <li><strong>Print Statement vs Function:</strong> In Python 2.x, <code>print</code> is a statement, but in Python 3.x, it's a function that requires parentheses.</li>
+    <li><strong>Integer Division:</strong> Python 2.x performs integer division by default when dividing two integers, while Python 3.x performs float division.</li>
+    <li><strong>Unicode Support:</strong> Python 3.x has better support for Unicode by default, unlike Python 2.x, where you need to explicitly define strings as Unicode.</li>
+    <li><strong>Iterators:</strong> Functions like <code>range()</code> and <code>zip()</code> return iterators in Python 3.x, whereas they return lists in Python 2.x.</li>
+    <li><strong>Input Function:</strong> In Python 2.x, <code>input()</code> evaluates the input as code, while <code>raw_input()</code> returns input as a string. Python 3.x only has <code>input()</code>, which always returns a string.</li>
+</ul>
   
 <h4> More Questions </h4>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>

@@ -39,6 +39,11 @@ Spaces. Stick to PEP8 when possible.
 <h3> Question 8: How are arguments passed – by reference of by value? </h3>
 The terms PBR and PBV were developed to talk about languages like Fortran and C and using them to talk about Python is only a source of confusion. Python's passing semantics are different from either of these languages.
 The literal answer is that Python is pass-by-value in all cases, and also in all cases the value is an object reference. In a PBR language you can rebind the name in the passing scope, but in Python you can only mutate an object you receive. This is analogous to passing pointers in C, while C remains a PBV-only language.
+<h4> Another Answer </h4>
+PBV and PBR were designed to talk about all programming languages.
+Pass by value: the argument expression is evaluated, and the value it results in is assigned to the formal parameter.
+Pass by reference: the argument expression is evaluated, and a reference to the result is assigned to the formal parameter.
+People get confused and think that PBV == copying, because in C, assignment of a value copies the value
 
 <ul>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>

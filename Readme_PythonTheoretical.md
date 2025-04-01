@@ -19,7 +19,7 @@ However, the specific syntax of decorators using <code>@decorator_name</code> is
 
 
 <h3> Question 2: What is PEP8 and do you follow its guidelines when you're coding? </h3>
-<p> A coding standard, and I try to. pylint is a great help.</p>
+<p> A coding standard, and I try to. pylint is a great help.</p> Pylint is an open-source tool designed to help developers check code and its quality, detect programming errors in the Python language and offer simple refactoring suggestions.
 
 <h3> Question 3: How are arguments passed – by reference of by value? </h3> (easy, but not that easy, I'm not sure if I can answer this clearly)
 <p> </p>

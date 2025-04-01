@@ -47,3 +47,8 @@
     <li>What don't you like about Python?</li>
     <li>Can you convert ASCII characters to an integer without using built-in methods like <code>string.atoi</code> or <code>int()</code>?</li>
 </ul>
+
+<h2>subjective ones</h2>
+<ul>
+    <li>do you use tabs or spaces, which ones are better?</li>   
+</ul>

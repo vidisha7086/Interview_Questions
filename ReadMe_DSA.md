@@ -24,30 +24,6 @@ When dealing with tuples, strings, queues, and linked lists, the difference betw
 
 > **Note:** The efficiency of concatenation vs. appending depends on the underlying data structure and implementation.
 >
-> <!DOCTYPE html>
-<html>
-<head>
-    <title>Concatenation vs Append in Data Structures</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-    </style>
-</head>
-<body>
     <h1>Concatenation vs. Append in Data Structures</h1>
     
     <h2>🔹 Key Takeaways:</h2>
@@ -153,7 +129,5 @@ print(queue.get())  # Output: 1
         <li>Appending modifies the existing structure, making it more efficient in mutable data types.</li>
         <li>Queues and linked lists benefit more from appending than concatenation.</li>
     </ul>
-    
-</body>
-</html>
+
 

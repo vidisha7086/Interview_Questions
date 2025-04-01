@@ -46,6 +46,43 @@ Pass by reference: the argument expression is evaluated, and a reference to the 
 People get confused and think that PBV == copying, because in C, assignment of a value copies the value.
 
 
+<h3> Question 9: Differences Between Python 2.x and Python 3.x</h3>  
+    <ul>
+        <li>
+            <strong>Print Statement vs Print Function:</strong>
+            <p><strong>Python 2.x:</strong> <code>print "Hello, world!"</code> (No parentheses required.)</p>
+            <p><strong>Python 3.x:</strong> <code>print("Hello, world!")</code> (Parentheses required.)</p>
+        </li>
+        
+        <li>
+            <strong>Integer Division:</strong>
+            <p><strong>Python 2.x:</strong> Division of integers results in integer output. 
+                For example, <code>3 / 2</code> returns <strong>1</strong>.</p>
+            <p><strong>Python 3.x:</strong> Division of integers returns a float. 
+                For example, <code>3 / 2</code> returns <strong>1.5</strong>.</p>
+        </li>
+
+        <li>
+            <strong>Unicode Support:</strong>
+            <p><strong>Python 2.x:</strong> Strings are ASCII by default. You need to specify Unicode with a <code>u</code> prefix. 
+                Example: <code>u"Hello"</code> for Unicode string.</p>
+            <p><strong>Python 3.x:</strong> All strings are Unicode by default. No need to prefix with <code>u</code>.</p>
+        </li>
+
+        <li>
+            <strong>Iterators:</strong>
+            <p><strong>Python 2.x:</strong> Functions like <code>range()</code> and <code>zip()</code> return lists.</p>
+            <p><strong>Python 3.x:</strong> Functions like <code>range()</code> and <code>zip()</code> return iterators instead of lists.</p>
+        </li>
+
+        <li>
+            <strong>Input Function:</strong>
+            <p><strong>Python 2.x:</strong> <code>input()</code> evaluates the input as a Python expression, and <code>raw_input()</code> reads input as a string.</p>
+            <p><strong>Python 3.x:</strong> <code>input()</code> always returns the input as a string. There is no <code>raw_input()</code>.</p>
+        </li>
+    </ul>
+
+
 <ul>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>
     <li><strong>Multiple inheritance:</strong> Python supports multiple inheritance, allowing a class to inherit attributes and methods from more than one parent class. However, it can lead to complexity, especially with the "diamond problem," which Python resolves using the C3 linearization (method resolution order, MRO).</li>

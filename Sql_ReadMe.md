@@ -1,4 +1,4 @@
-# URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Python_Coding_Interview_Questions_For_Experienced
+# 1. URL: https://codingcompiler.com/python-coding-interview-questions-answers/#Python_Coding_Interview_Questions_For_Experienced
 <h1>Python Coding Interview Questions For Freshers</h1>
 
 <ul>
@@ -15,7 +15,7 @@
 </ul>
 
 # Reference Instagram ID
-# URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
+# 2. URL: https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl
 <h1>Top 30 MySQL Interview Questions</h1>
 
 <p>These MySQL interview questions can help you prepare for technical interviews.</p>
@@ -61,3 +61,7 @@
     <li>What is the difference between DELETE, TRUNCATE, and DROP?</li>
     <li>How do you recover a lost root password in MySQL?</li>
 </ul>
+
+# 3. URL: [https://www.instagram.com/reel/DHlJns3P8-_/?igsh=Z2k3bTd4ZHhpYnFl](https://www.reddit.com/r/Python/comments/1knw7z/python_interview_questions/?rdt=33142)
+
+

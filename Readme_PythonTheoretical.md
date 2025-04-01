@@ -26,3 +26,6 @@ However, the specific syntax of decorators using <code>@decorator_name</code> is
 
 <h3> Question 4:Do you know what list and dict comprehensions are? Can you give an example? </h3>
 <p> Ways to construct a list or dict through an expression and an iterable  </p>
+
+<h3> Question 5: How to read a 8GB file ? </h3>
+Operate on chunks, and not one byte at a time. Be wary about the RAM of the host machine. What is the nature of the data such that it is so large? How are you operating on it? What are you returning? Are you accessing it sequentially or randomly? There's a lot more to ask than to answer here

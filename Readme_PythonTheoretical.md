@@ -78,6 +78,7 @@ People get confused and think that PBV == copying, because in C, assignment of a
         </li>
     </ul>
 <ul>
+<h4> More Questions </h4>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>
     <li><strong>Multiple inheritance:</strong> Python supports multiple inheritance, allowing a class to inherit attributes and methods from more than one parent class. However, it can lead to complexity, especially with the "diamond problem," which Python resolves using the C3 linearization (method resolution order, MRO).</li>
     <li><strong>Is Python compiled, interpreted, and/or emulated?</strong> Python is primarily an interpreted language, meaning its code is executed line by line. However, it is first compiled to bytecode (.pyc files) before being interpreted by the Python Virtual Machine (PVM).</li>

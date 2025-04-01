@@ -36,7 +36,9 @@ It's **slow**, and it can be **too dynamic** for certain tasks in my opinion. **
 <h3> Question 7: Do you use tabs or spaces, which ones are better? </h3>
 Spaces. Stick to PEP8 when possible.
 
-<h3> Question 8: Do you use tabs or spaces, which ones are better? </h3>
+<h3> Question 8: How are arguments passed – by reference of by value? </h3>
+The terms PBR and PBV were developed to talk about languages like Fortran and C and using them to talk about Python is only a source of confusion. Python's passing semantics are different from either of these languages.
+The literal answer is that Python is pass-by-value in all cases, and also in all cases the value is an object reference. In a PBR language you can rebind the name in the passing scope, but in Python you can only mutate an object you receive. This is analogous to passing pointers in C, while C remains a PBV-only language.
 
 <ul>
     <li><strong>Generators / yield keyword:</strong> In Python, generators are special functions that use the <code>yield</code> keyword to return values lazily, meaning they produce items one at a time rather than storing everything in memory.</li>

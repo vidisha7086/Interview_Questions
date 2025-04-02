@@ -58,8 +58,10 @@
         </ul>
     </li>
 
-    <li><b>How does caching (memoization) help in reducing time complexity?</b>
+<li><b>How does caching (memoization) help in reducing time complexity?</b>
         <br>Memoization stores already computed results, avoiding redundant calculations. For example, in recursive Fibonacci calculations, caching prevents exponential time complexity (O(2ⁿ)) and reduces it to O(n).
+
+In computer programming, memoization is an optimization technique that speeds up execution by storing the results of expensive function calls and returning the cached result when the same inputs occur again, effectively avoiding redundant calculations. 
     </li>
 
     <li><b>What is the difference between brute-force and optimized approaches?</b>

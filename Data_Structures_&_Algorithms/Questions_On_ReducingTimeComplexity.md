@@ -49,7 +49,7 @@
 <h3>1. Understanding Complexity Reduction</h3>
 <ul>
     <li><b>What are common techniques to reduce time complexity in algorithms?</b>
-        <br>Some common techniques include:
+    <br>Some common techniques include:
         <ul>
             <li>Using better data structures (e.g., HashMaps instead of arrays for quick lookups).</li>
             <li>Applying Dynamic Programming to avoid redundant calculations.</li>

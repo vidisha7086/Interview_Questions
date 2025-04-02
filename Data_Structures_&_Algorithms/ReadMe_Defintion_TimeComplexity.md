@@ -112,3 +112,24 @@ def fibonacci(n):
 </table>
 
 <p>Would you like me to add more examples or cover specific cases? 😊🚀</p>
+
+<h2>How is O(n log n) Read?</h2>
+
+<p><strong>O(n log n)</strong> is read as <em>"Big-O of n log n"</em> or <em>"Order of n log n"</em>.</p>
+
+<h3>Breaking it Down:</h3>
+<ul>
+    <li><strong>O(n log n)</strong> represents an algorithmic complexity where the running time grows proportionally to <code>n</code> multiplied by the logarithm of <code>n</code>.</li>
+    <li><strong>log n</strong> usually refers to the logarithm to the base 2 (<code>log₂n</code>), but in complexity analysis, the base is often omitted because logarithms of different bases differ only by a constant factor.</li>
+</ul>
+
+<h3>Examples of O(n log n) Algorithms:</h3>
+<ul>
+    <li><strong>Merge Sort</strong></li>
+    <li><strong>Quick Sort (average case)</strong></li>
+    <li><strong>Heap Sort</strong></li>
+    <li><strong>Efficient algorithms for finding closest pairs in computational geometry</strong></li>
+</ul>
+
+<p>Would you like further explanations or examples? 🚀</p>
+

@@ -124,3 +124,67 @@
 </ul>
 
 <p>Would you like detailed solutions for any of these? 🚀</p>
+
+
+<h1>FAANG Interview Questions and Answers</h1>
+
+<h2>1. Data Structures & Algorithms (DSA)</h2>
+<p>These questions test your ability to solve problems using efficient algorithms and data structures.</p>
+
+<h3>Array & String Questions</h3>
+<ul>
+  <li>
+    <strong>Two Sum Problem:</strong> Given an array of integers, find two numbers that add up to a given target.
+    <br><strong>Answer:</strong> Use a hash map to store numbers and check if (target - current number) exists.
+    <br><strong>Time Complexity:</strong> O(n)
+    <br><strong>Source:</strong> <a href="https://leetcode.com/problems/two-sum/">Leetcode</a>
+  </li>
+  <li>
+    <strong>Longest Substring Without Repeating Characters:</strong>
+    <br><strong>Answer:</strong> Use the sliding window technique and a set to track characters.
+    <br><strong>Time Complexity:</strong> O(n)
+    <br><strong>Source:</strong> <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Leetcode</a>
+  </li>
+</ul>
+
+<h3>Linked List Questions</h3>
+<ul>
+  <li>
+    <strong>Reverse a Linked List:</strong>
+    <br><strong>Answer:</strong> Use an iterative approach with three pointers (prev, curr, next) or recursion.
+    <br><strong>Time Complexity:</strong> O(n)
+    <br><strong>Source:</strong> <a href="https://leetcode.com/problems/reverse-linked-list/">Leetcode</a>
+  </li>
+</ul>
+
+<h3>System Design Questions</h3>
+<ul>
+  <li>
+    <strong>Design a URL Shortening Service like TinyURL:</strong>
+    <br><strong>Answer:</strong> Use a hash function to map long URLs to short codes and store mappings in a database.
+    <br><strong>Concepts Used:</strong> Hashing, database design, scalability.
+    <br><strong>Source:</strong> <a href="https://systemdesignprep.com/url-shortener">System Design Prep</a>
+  </li>
+</ul>
+
+<h3>Database & SQL Questions</h3>
+<ul>
+  <li>
+    <strong>Find the Second Highest Salary:</strong>
+    <br><strong>Answer:</strong> Use SQL query:
+    <pre>
+    SELECT MAX(salary) 
+    FROM employees 
+    WHERE salary < (SELECT MAX(salary) FROM employees);
+    </pre>
+    <br><strong>Source:</strong> <a href="https://leetcode.com/problems/second-highest-salary/">Leetcode</a>
+  </li>
+</ul>
+
+<h2>📌 Additional Resources</h2>
+<ul>
+  <li><a href="https://leetcode.com/problemset/">Leetcode Problems</a></li>
+  <li><a href="https://systemdesignprep.com/">System Design Guide</a></li>
+</ul>
+
+<p>Would you like detailed explanations or code implementations for any of these? 🚀</p>

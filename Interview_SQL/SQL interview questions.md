@@ -84,5 +84,6 @@
   jason functions
   what exactly is parquet format 
   how we convert all files in parquet format 
+  how we can merge two columns data of two different tables
   
 </li>

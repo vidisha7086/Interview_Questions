@@ -74,4 +74,15 @@
   junk dimensionality -----------------
   differnec between distinct and groupby-----------
   differnce between where and having ----------
+  use of apply()
+  conactenate column values
+  pyspark tunning
+  pyspark optimization
+  quartely sum of price using sql and python
+  list of pandas fucntion for data manipulation
+  api development
+  jason functions
+  what exactly is parquet format 
+  how we convert all files in parquet format 
+  
 </li>

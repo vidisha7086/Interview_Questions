@@ -54,6 +54,27 @@
   </li>
 </ol>
 
+<h3>⭐ Star and ❄️ Snowflake Schema</h3>
+
+<h4>⭐ Star Schema</h4>
+<ul>
+  <li>Denormalized schema</li>
+  <li>Looks like a star — the fact table is in the center and connects to multiple dimension tables</li>
+  <li>Fast query performance</li>
+  <li>Used in reporting and OLAP systems</li>
+  <li>Simple structure</li>
+  <li>Best suited for OLAP systems</li>
+</ul>
+
+<h4>❄️ Snowflake Schema</h4>
+<ul>
+  <li>Normalized version of star schema — dimension tables are further broken into sub-dimension tables</li>
+  <li>Space efficient</li>
+  <li>Maintains data integrity</li>
+  <li>Joins are more complex</li>
+  <li>Slower query performance</li>
+  <li>Used for OLTP systems</li>
+</ul>
 
 <h2>📚 Topics Covered</h2>
 <ul>
@@ -86,5 +107,8 @@
   <li>🗂️ What Exactly is Parquet Format?</li>
   <li>🔄 Convert All Files to Parquet Format</li>
   <li>🧬 Merge Two Columns Data of Two Different Tables</li>
+  <li>🧬 BST sql</li>
+  <li>🧬 Leetcode </li>
+  <li>🧬 codewars</li>
 </ul>
 

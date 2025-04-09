@@ -108,7 +108,8 @@
   <li>🔄 Convert All Files to Parquet Format</li>
   <li>🧬 Merge Two Columns Data of Two Different Tables</li>
   <li>🧬 BST sql</li>
-  <li>🧬 Leetcode </li>
-  <li>🧬 codewars</li>
+  <li>🧬 Leetcode plateform </li>
+  <li>🧬 codewars plateform and dealing with def fucntions</li>
+  <li>🧬 search one end to end project for ETL pipeline building</li>
 </ul>
 

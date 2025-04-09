@@ -53,3 +53,25 @@
     &nbsp;&nbsp;&nbsp;&nbsp;<code>SELECT * FROM table_name LIMIT 10 OFFSET 20;</code>
   </li>
 </ol>
+
+
+<li>
+  star and snowflake schem --------------
+  list comprehension ----
+  python namespaces-------
+  pandas and numpy---------
+  joins ---------
+  query for removing duplicates and second highest salry in each deparment
+  defaultt values fucntion ---------------
+  olap and oltp---------------------
+  steps of data modelling------------------
+  scd --------------------------------------
+  normalization----------------------------
+  denormalization-------------------------------
+  optmization rechniques-----------------
+  partioning and bucketing----------------
+  pushdown optimization ---------------------
+  junk dimensionality -----------------
+  differnec between distinct and groupby-----------
+  differnce between where and having ----------
+</li>

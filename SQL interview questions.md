@@ -1,26 +1,55 @@
 <h2>𝐒𝐐𝐋 𝐐𝐮𝐞𝐫𝐲 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐓𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬</h2>
-<p><em>Query optimization involves rewriting SQL queries to run faster, use fewer resources, and provide improved scalability:</em></p>
+<p><em>(Query optimization involves rewriting the SQL queries to run faster, use fewer resources, and provide improved scalability)</em></p>
+
+<p>🔗 <strong>URL</strong>: <a href="https://www.linkedin.com/feed/update/urn:li:activity:7303652480750432256/" target="_blank">LinkedIn Post</a></p>
 
 <ol>
-  <li><strong>Query execution plan</strong></li>
-
-  <li><strong>Avoid <code>SELECT *</code></strong>
-    <ul>
-      <li>Using <code>*</code> will waste resources, so try to use only required column names.</li>
-      <li>Specifying column names improves memory usage and performance.</li>
-    </ul>
+  <li>
+    <strong>Analyze query performance</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Execution plan shows how the database executes your query<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Identify slow parts of query<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Adjust indexing, joins and filter based on insights<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<code>EXPLAIN SELECT * FROM CUSTOMER WHERE CONDITION;</code>
   </li>
 
-  <li><strong>Proper usage of indexes</strong>
-    <ul>
-      <li>Use indexes for frequently searched or filtered columns.</li>
-      <li>Avoid overusing indexes, as they can slow down write operations.</li>
-      <li>Example:
-        <pre><code>CREATE INDEX idx_customer_name ON Customers(customerName);
-SELECT * FROM Customers WHERE customerName = 'John';</code></pre>
-      </li>
-    </ul>
+  <li>
+    <strong>Avoid <code>SELECT *</code></strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Using * will waste the resources, so try to use required column names<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Using specific columns avoids unnecessary resource usage and improves memory
   </li>
 
-  <li><strong>Use <code>WHERE</code> instead of <code>HAVING</code></strong></li>
+  <li>
+    <strong>Proper usage of indexes</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Use indexes for frequently searched or filtered columns<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Avoid overuse of indexes, as it can slow down write operations<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<code>CREATE INDEX idx_customer_name ON Customers(customerName);</code><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<code>SELECT * FROM customer WHERE customerName = 'John';</code>
+  </li>
+
+  <li>
+    <strong>Use <code>WHERE</code> instead of <code>HAVING</code></strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• WHERE filters rows <em>before</em> aggregation<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• HAVING filters <em>after</em> aggregation<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Filtering early improves performance and reduces dataset size
+  </li>
+
+  <li>
+    <strong>Leverage joins effectively</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Use INNER JOIN for specific matching rows<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Avoid CROSS JOIN (unless needed)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Always use <code>ON</code> condition to avoid Cartesian product<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Index join columns for faster lookup
+  </li>
+
+  <li>
+    <strong>Avoid subqueries when possible</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Use JOINs for better performance instead of nested subqueries
+  </li>
+
+  <li>
+    <strong>Limit results with pagination</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Querying millions of records at once is resource intensive<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;• Use <code>LIMIT</code> and <code>OFFSET</code> for pagination<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<code>SELECT * FROM table_name LIMIT 10 OFFSET 20;</code>
+  </li>
 </ol>

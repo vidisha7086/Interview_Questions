@@ -55,35 +55,36 @@
 </ol>
 
 
-<li>
-  star and snowflake schem --------------
-  list comprehension ----
-  python namespaces-------
-  pandas and numpy---------
-  joins ---------
-  query for removing duplicates and second highest salry in each deparment
-  defaultt values fucntion ---------------
-  olap and oltp---------------------
-  steps of data modelling------------------
-  scd --------------------------------------
-  normalization----------------------------
-  denormalization-------------------------------
-  optmization rechniques-----------------
-  partioning and bucketing----------------
-  pushdown optimization ---------------------
-  junk dimensionality -----------------
-  differnec between distinct and groupby-----------
-  differnce between where and having ----------
-  use of apply()
-  conactenate column values
-  pyspark tunning
-  pyspark optimization
-  quartely sum of price using sql and python
-  list of pandas fucntion for data manipulation
-  api development
-  jason functions
-  what exactly is parquet format 
-  how we convert all files in parquet format 
-  how we can merge two columns data of two different tables
-  
-</li>
+<h2>📚 Topics Covered</h2>
+<ul>
+  <li>⭐ Star and ❄️ Snowflake Schema</li>
+  <li>📌 List Comprehension</li>
+  <li>🧠 Python Namespaces</li>
+  <li>📊 Pandas and NumPy</li>
+  <li>🔗 SQL Joins</li>
+  <li>🗑️ Query for Removing Duplicates</li>
+  <li>🏆 Second Highest Salary in Each Department</li>
+  <li>🧩 Default Values Function</li>
+  <li>🧮 OLAP and OLTP</li>
+  <li>🧱 Steps of Data Modelling</li>
+  <li>🔁 Slowly Changing Dimensions (SCD)</li>
+  <li>📐 Normalization</li>
+  <li>📦 Denormalization</li>
+  <li>🚀 SQL Query Optimization Techniques</li>
+  <li>📂 Partitioning and Bucketing</li>
+  <li>⚙️ Pushdown Optimization</li>
+  <li>🧩 Junk Dimensionality</li>
+  <li>🔍 Difference Between DISTINCT and GROUP BY</li>
+  <li>🔎 Difference Between WHERE and HAVING</li>
+  <li>⚒️ Use of <code>apply()</code> in Python</li>
+  <li>🔗 Concatenate Column Values</li>
+  <li>🔥 PySpark Tuning & Optimization</li>
+  <li>📈 Quarterly Sum of Price Using SQL & Python</li>
+  <li>🛠️ List of Pandas Functions for Data Manipulation</li>
+  <li>🌐 API Development</li>
+  <li>📦 JSON Functions</li>
+  <li>🗂️ What Exactly is Parquet Format?</li>
+  <li>🔄 Convert All Files to Parquet Format</li>
+  <li>🧬 Merge Two Columns Data of Two Different Tables</li>
+</ul>
+
